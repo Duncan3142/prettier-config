@@ -1,5 +1,11 @@
 # @duncan3142/prettier-config
 
+## 1.0.2
+
+### Patch Changes
+
+- 4964de2: GitHub Actions publish workflow
+
 ## 1.0.1
 
 ### Patch Changes
