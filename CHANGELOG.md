@@ -1,5 +1,11 @@
 # @duncan3142/prettier-config
 
+## 1.0.3
+
+### Patch Changes
+
+- cb61ab5: GitHub actions permissions
+
 ## 1.0.2
 
 ### Patch Changes
