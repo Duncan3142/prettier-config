@@ -2,6 +2,10 @@ name: publish
 
 run-name: Publish
 
+permissions:
+  contents: write
+  packages: write
+
 on:
   push:
     branches:
