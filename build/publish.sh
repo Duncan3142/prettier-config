@@ -7,6 +7,7 @@ then
   echo "No pending changesets, skipping publishing"
   exit 0
 fi
-git status
+
 pnpm changeset version
+git status
 pnpm publish
