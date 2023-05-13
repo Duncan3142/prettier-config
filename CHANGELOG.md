@@ -1,5 +1,11 @@
 # @duncan3142/prettier-config
 
+## 1.0.6
+
+### Patch Changes
+
+- dd82ad8: Publish workflow
+
 ## 1.0.5
 
 ### Patch Changes
