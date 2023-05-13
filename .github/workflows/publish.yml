@@ -28,11 +28,12 @@ jobs:
           version: 8
       - uses: actions/setup-node@v3
         with:
-          node-version: "18"
+          check-latest: true
+          node-version-file: ".nvmrc"
           cache: "pnpm"
-      - run: pnpm install --frozen-lockfile
-      - run: cat .npmrc
-      - run: ./build/publish.sh
+      - run: pnpm config -g set "//npm.pkg.github.com/:_authToken=${PNPM_AUTH_TOKEN}"
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PNPM_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: pnpm install --frozen-lockfile --ignore-scripts
+      - run: ./build/publish.sh
       - run: git push
