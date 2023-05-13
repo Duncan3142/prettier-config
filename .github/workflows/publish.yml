@@ -31,6 +31,7 @@ jobs:
           node-version: "18"
           cache: "pnpm"
       - run: pnpm install --frozen-lockfile
+      - run: cat .npmrc
       - run: ./build/publish.sh
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
