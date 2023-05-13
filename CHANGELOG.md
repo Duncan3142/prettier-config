@@ -1,5 +1,11 @@
 # @duncan3142/prettier-config
 
+## 1.0.4
+
+### Patch Changes
+
+- 32440d3: chore(deps): update
+
 ## 1.0.3
 
 ### Patch Changes
