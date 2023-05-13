@@ -1,5 +1,11 @@
 # @duncan3142/prettier-config
 
+## 1.0.7
+
+### Patch Changes
+
+- edb9710: Public package
+
 ## 1.0.6
 
 ### Patch Changes
