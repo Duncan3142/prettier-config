@@ -9,5 +9,4 @@ then
 fi
 
 pnpm changeset version
-git status
 pnpm publish

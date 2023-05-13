@@ -1,4 +1,4 @@
-if [ -z "$GITHUB_ACTIONS" ]
+if [ -z "$CI" ]
 then
   pnpm husky install
 fi
